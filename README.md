@@ -42,10 +42,8 @@ Encontered some errors when downloading cocoapods
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="![ios2](https://user-images.githubusercontent.com/60868240/109381322-9bd44100-788e-11eb-9ae2-0902cbe16c39.gif)
-" width=250><br>
+<img src="https://user-images.githubusercontent.com/60868240/109381322-9bd44100-788e-11eb-9ae2-0902cbe16c39.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+The multiline of label was overflow, I was struggling with the grid view as well since it showed up 10 in a one line at first
