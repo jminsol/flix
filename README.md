@@ -43,7 +43,7 @@ Encontered some errors when downloading cocoapods
 
 ### App Walkthrough GIF
 
-<img src="https://user-images.githubusercontent.com/60868240/109381322-9bd44100-788e-11eb-9ae2-0902cbe16c39.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/60868240/109381589-24071600-7890-11eb-985b-5aeb448cef84.gif" width=250><br>
 
 ### Notes
 The multiline of label was overflow, I was struggling with the grid view as well since it showed up 10 in a one line at first
