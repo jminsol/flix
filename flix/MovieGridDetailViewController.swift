@@ -15,7 +15,7 @@ class MovieGridDetailViewController: UIViewController {
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var synopsisText: UITextView!
     
     var movie: [String: Any]!
 
@@ -25,10 +25,11 @@ class MovieGridDetailViewController: UIViewController {
                 
         titleLabel.text = movie["original_title"] as? String
         titleLabel.sizeToFit()
-        synopsisLabel.text = movie["overview"] as? String
-        synopsisLabel.sizeToFit()
         dateLabel.text = movie["release_date"] as? String
         dateLabel.sizeToFit()
+        synopsisText.text = movie["overview"] as? String
+        
+        
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
